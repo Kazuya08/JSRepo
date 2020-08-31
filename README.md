@@ -2,5 +2,5 @@
 
 ![JS Image](./JS-Image.png)
 
-Este repositorio serve de exemplo para o curso de JS.
+Este repositorio e para o curso de JavaScript.
 
