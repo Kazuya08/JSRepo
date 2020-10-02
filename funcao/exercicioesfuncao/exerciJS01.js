@@ -7,3 +7,4 @@ function operacao (x , y) {
 }
 
 operacao(2, 4)
+
