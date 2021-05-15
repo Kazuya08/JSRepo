@@ -1,0 +1,28 @@
+{
+  "name": "JSRepo",
+  "version": "1.0.0",
+  "description": "![JS Image](./JS-Image.png)",
+  "main": "fonte.js",
+  "dependencies": {
+    "audit": "^0.0.6",
+    "fix": "^0.0.6",
+    "lodash": "^4.17.20",
+    "node-schedule": "^1.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazuya08/JSRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kazuya08/JSRepo/issues"
+  },
+  "homepage": "https://github.com/Kazuya08/JSRepo#readme"
+}
