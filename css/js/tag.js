@@ -20,7 +20,7 @@ const colors = {
 document.querySelectorAll(".tag").forEach((elemento) => {
   const tagName = elemento.tagName.toLowerCase();
 
-  elemento.style.boderColor = colors.get(tagName);
+  elemento.style.borderColor = colors.get(tagName);
 
   if (!elemento.classList.contains("nolabel")) {
     const label = document.createElement("label");
