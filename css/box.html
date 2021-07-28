@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Box Model</title>
     <style>
-        /* ... */
-    </style>
-</head>
+      body {
+        font-size: 80px;
+        margin: 0;
+      }
+      .c1 {
+        background-color: orange;
+      }
+      .c2 {
+        background-color: skyblue;
+      }
+      .c3 {
+        background-color: tomato;
+      }
 
-<body>
+      div {
+        float: left;
+        padding-top: 100px;
+        /* top right bottom left */
+        padding: 10px 50px 100px 150px;
+        /* top bottom 100px, right left 50px */
+        padding: 100px 50px;
+        /* 50px em todos os lados */
+        padding: 50px;
+        /* margin funciona da mesma forma que o padding */
+        margin: 0px 20px;
+        border: solid 15px black;
+      }
+    </style>
+  </head>
+
+  <body>
     <div class="c1">1</div>
     <div class="c2">2</div>
     <div class="c3">3</div>
-</body>
-
+  </body>
 </html>
