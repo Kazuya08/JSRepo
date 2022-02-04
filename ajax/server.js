@@ -39,6 +39,18 @@ app.post("/formulario", (req, res) => {
   });
 });
 
+app.get("/parOuImpar", (req, res) => {
+  // req.body vem no corpo da requisicao
+  // req.query vem por query string link?chave:valorQueryString
+  // req.params vem pelo link ex: link/params
+
+  const par = parseInt(req.query.numero) % 2 === 0;
+
+  res.send({
+    resultado: par ? "par" : "impar",
+  });
+});
+
 // app.get("/teste", (req, res) => {
 //   res.send("OKAY");
 // });
